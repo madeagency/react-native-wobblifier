@@ -2,6 +2,8 @@
 
 Makes your `react-native` component respond to taps by wobbling about 👆
 
+![Alt Text](demo.gif)
+
 ## Installation
 
 `yarn add react-native-wobblifier`
