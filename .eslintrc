@@ -1,0 +1,49 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2016,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/react",
+    "prettier/flowtype"
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "plugins": ["flowtype", "react", "jsx-a11y", "import", "prettier"],
+  "rules": {
+    "comma-dangle": "off",
+    "global-require": "off",
+    "semi": [2, "never"],
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".jsx", ".js"]
+      }
+    ],
+    "prettier/prettier": 2
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ios.js", ".android.js"]
+      }
+    },
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "globals": {
+    "__DEV__": true,
+    "fetch": true
+  }
+}

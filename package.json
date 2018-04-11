@@ -1,0 +1,48 @@
+{
+  "name": "react-native-wobblifier",
+  "version": "1.0.0",
+  "description": "Wobblify anything",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/madeagency/react-native-wobblifier.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "interactions",
+    "ux",
+    "wobble",
+    "physics",
+    "animated",
+    "love"
+  ],
+  "author": "Ross Berkland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madeagency/react-native-wobblifier/issues"
+  },
+  "homepage": "https://github.com/madeagency/react-native-wobblifier#readme",
+  "peerDependencies": {
+    "react": ">= 15.0.0",    
+    "react-native": ">= 0.40.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.67.1",
+    "prettier": "^1.11.1"
+  }
+}
