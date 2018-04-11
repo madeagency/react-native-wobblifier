@@ -8,7 +8,7 @@ Makes your `react-native` component respond to taps by wobbling about 👆
 
 ## Usage
 
-```javascript
+```jsx
 import Wobblify from 'react-native-wobblifier'
 
 <Wobblify>
@@ -17,7 +17,7 @@ import Wobblify from 'react-native-wobblifier'
 ```
 
 Or configure using the following props (listed below with defaults):
-```
+```jsx
 <Wobblify
   perspective={200} // passed to the transform
   springConfig={{   // merged with the default Animated.spring config
